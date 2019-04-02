@@ -1,0 +1,79 @@
+<Workspace Version="1.3.3.4651" X="3322.37130424701" Y="748.264490084543" zoom="0.612438443411606" ScaleFactor="1" Name="Home" Description="" RunType="Automatic" RunPeriod="1000" HasRunWithoutCrash="True">
+  <NamespaceResolutionMap />
+  <Elements />
+  <Connectors />
+  <Notes>
+    <Dynamo.Graph.Notes.NoteModel guid="01ec930c-4515-4665-a4b9-dcc6fd2c385b" text="GUIDE&#xD;&#xA;&#xD;&#xA;1. DIVIDE THE DYNAMO DEFINITION INTO THE USER INTERFACE AND THE BACK-END&#xD;&#xA;&#xD;&#xA;2. BUILD THE DEFINITION WITH SMALL BLOCKS&#xD;&#xA;&#xD;&#xA;3. COLOR-CODE BLOCKS ACCORDING TO THE TEMPLATE&#xD;&#xA;&#xD;&#xA;4. ALWAYS WRITE CONCISE INSTRUCTIONS ON HOW TO RUN THE SCRIPT&#xD;&#xA;&#xD;&#xA;5. ALWAYS COMPILE INFO&#xD;&#xA;&#xD;&#xA;6. GROUPS NAMING CONVENTION:&#xD;&#xA;&lt;USE&gt;_&lt;AFFECTED ELEMENTS/GEOMETRY&gt;" x="-5351.33022932282" y="-741.686415469762" />
+    <Dynamo.Graph.Notes.NoteModel guid="129dd3f0-8385-4808-b5e5-ef095c548b41" text="USE:&#xD;&#xA;NODES THAT REFERENCE/COLLECT REVIT ELEMENTS&#xD;&#xA;INSIDE OF DYNAMO" x="-4995.70180669502" y="-140.166377613352" />
+    <Dynamo.Graph.Notes.NoteModel guid="bb57ea8e-7988-4cb7-85d6-0b05c669d088" text="USE:&#xD;&#xA;WIP TEMPORAY PARTS THAT HELP IN DEVELOPING&#xD;&#xA;THE SCRIPT BUT ARE NOT PART OF THE FINAL WORKFLOW  " x="-4987.9368383723" y="-460.057081851866" />
+    <Dynamo.Graph.Notes.NoteModel guid="db0beac5-3839-47ba-8cd4-d9ffbeedad6d" text="USE:&#xD;&#xA;WHEN QUERYING PARAMETERS OF REVIT ELEMENTS" x="-4564.17407778676" y="-741.415557603681" />
+    <Dynamo.Graph.Notes.NoteModel guid="e1a17476-fa39-4e15-b226-4f8bd4551d26" text="USE:&#xD;&#xA;WHEN MODIFYING PARAMETERS OF REVIT ELEMENTS" x="-4567.96404351815" y="-445.02749074335" />
+    <Dynamo.Graph.Notes.NoteModel guid="dc9789e6-57d6-488c-9f14-bb0e88111188" text="USE:&#xD;&#xA;CREATE ELEMENTS IN THE REVIT ENVIRONMENT" x="-4227.81503795411" y="-429.343097374371" />
+    <Dynamo.Graph.Notes.NoteModel guid="155f93e9-8c75-48c2-87e0-103b7f70a09d" text="USE:&#xD;&#xA;FOR COMMENTS                              " x="-4161.17017806697" y="-135.068845978029" />
+    <Dynamo.Graph.Notes.NoteModel guid="1f569de1-c501-468d-be74-155efc40ad88" text="USE:&#xD;&#xA;USER INPUTS TO BE FILLED IN TO RUN THE SCRIPT OR WHAT THE USER WANTS TO SEE" x="-4987.41194014763" y="-740.154707256359" />
+    <Dynamo.Graph.Notes.NoteModel guid="c910043d-53af-4d33-86e8-cde0af6f0c7e" text="CREATED BY:&#xD;&#xA;MODIFIED BY:&#xD;&#xA;STARTING DATE:&#xD;&#xA;FINISHING DATE:&#xD;&#xA;&#xD;&#xA;DYNAMO VERSION: &lt;Dynamo 1.3.0&gt;&#xD;&#xA;&#xD;&#xA;PACKAGES USED:&#xD;&#xA;-&#xD;&#xA;&#xD;&#xA;PROJECT SPECIFIC:&#xD;&#xA;NO&#xD;&#xA;&#xD;&#xA;" x="-3596.89767514006" y="-869.09169797326" />
+    <Dynamo.Graph.Notes.NoteModel guid="aef4044d-346c-46b8-8f63-afdcc8e99772" text="PARAMETERS" x="-4660.72251357782" y="-600.182497428563" />
+    <Dynamo.Graph.Notes.NoteModel guid="a4f6ad01-15f4-4114-95d5-46e5518558e1" text="ANNOTATION" x="-4287.54325232466" y="-309.925817846472" />
+    <Dynamo.Graph.Notes.NoteModel guid="db666486-8bae-4a42-afa5-dc883f15977e" text="USER INTERFACE" x="-5029.02199009433" y="-867.558963928132" />
+    <Dynamo.Graph.Notes.NoteModel guid="72b5437f-8a0e-43a0-8df4-9936590430ee" text="WIP" x="-5028.75798486404" y="-599.825532530126" />
+    <Dynamo.Graph.Notes.NoteModel guid="2f803212-b39c-4239-9147-b3e07575e61f" text="COLLECTORS" x="-5028.17093262882" y="-266.076371250052" />
+    <Dynamo.Graph.Notes.NoteModel guid="a12f5772-11cb-41fc-9878-788c969dc2c5" text="PARAMETERS" x="-4657.17655446183" y="-868.65625735377" />
+    <Dynamo.Graph.Notes.NoteModel guid="bb8ab9f9-61cf-4caa-a50a-64a4f9353512" text="CREATION" x="-4285.75988450931" y="-601.310594194268" />
+    <Dynamo.Graph.Notes.NoteModel guid="6cc7090e-1cc8-43fd-8e17-216e499748b6" text="ALWAYS WRITE INSTRUCTIONS ON HOW TO RUN THE DYNAMO GRAPH" x="-3214.87133206794" y="-870.493363245636" />
+    <Dynamo.Graph.Notes.NoteModel guid="7d731994-450d-45a5-a15a-ee78404e0c2e" text="CREATION" x="-4286.44190739819" y="-868.383040098772" />
+    <Dynamo.Graph.Notes.NoteModel guid="01dccb3e-98a8-4cc3-bc3d-9143f358226e" text="USE:&#xD;&#xA;CREATE ELEMENTS IN THE DYNAMO ENVIRONMENT" x="-4250.04174546059" y="-724.069451132292" />
+    <Dynamo.Graph.Notes.NoteModel guid="76d0f2d7-5402-410b-8bde-f88c5e3f1be3" text="INPUT / OUTPUT" x="-4662.32980258324" y="-311.496952037209" />
+    <Dynamo.Graph.Notes.NoteModel guid="3f7997b2-07cb-46e8-96b6-1773fbac1d9d" text="USE:&#xD;&#xA;READ OR WRITE DATA IN EXTERNAL FILES SUCH AS EXCEL, CSV, NOTES, WORD, ETC." x="-4599.66125588538" y="-136.117674806821" />
+  </Notes>
+  <Annotations>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="a576aae5-434b-4c2d-83f8-8f0218914751" annotationText="BEST PRACTICE GUIDE" left="-5361.33022932282" top="-924.686415469762" width="292.5" height="458" fontSize="48" InitialTop="-741.686415469762" InitialHeight="140" TextblockHeight="173" backgrouund="#FFBB87C6">
+      <Models ModelGuid="01ec930c-4515-4665-a4b9-dcc6fd2c385b" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="1e23a7bf-385c-4676-9467-a316fd55926b" annotationText="MODIFY PARAMETERS" left="-4670.72251357782" top="-653.182497428563" width="361.25847005967" height="281.155006685213" fontSize="36" InitialTop="-600.182497428563" InitialHeight="275.7464827933" TextblockHeight="43" backgrouund="#FFC1D676">
+      <Models ModelGuid="aef4044d-346c-46b8-8f63-afdcc8e99772" />
+      <Models ModelGuid="e1a17476-fa39-4e15-b226-4f8bd4551d26" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="6ebef506-acf2-49d9-8eb4-6348c0ab1d15" annotationText="TEMPORARY" left="-5038.75798486404" top="-652.825532530126" width="350.321146491739" height="280.26845067826" fontSize="36" InitialTop="-599.825532530126" InitialHeight="279.768450678261" TextblockHeight="43" backgrouund="#FFB5B5B5">
+      <Models ModelGuid="72b5437f-8a0e-43a0-8df4-9936590430ee" />
+      <Models ModelGuid="bb57ea8e-7988-4cb7-85d6-0b05c669d088" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="7423d88c-caaf-4a7b-a8d8-4d57968b89af" annotationText="ELEMENTS COLLECTOR" left="-5038.17093262882" top="-362.576371250052" width="351.4691259338" height="295.4099936367" fontSize="36" InitialTop="-266.076371250052" InitialHeight="265.9099936367" TextblockHeight="86.5" backgrouund="#FF48B9FF">
+      <Models ModelGuid="2f803212-b39c-4239-9147-b3e07575e61f" />
+      <Models ModelGuid="129dd3f0-8385-4808-b5e5-ef095c548b41" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="19b1fd10-6a17-4120-a66e-d67e41201887" annotationText="GET PARAMETERS" left="-4667.17655446183" top="-921.65625735377" width="354.50247667507" height="253.240699750089" fontSize="36" InitialTop="-868.65625735377" InitialHeight="264.45529914592" TextblockHeight="43" backgrouund="#FF71C6A8">
+      <Models ModelGuid="a12f5772-11cb-41fc-9878-788c969dc2c5" />
+      <Models ModelGuid="db0beac5-3839-47ba-8cd4-d9ffbeedad6d" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="0af655b4-3ec4-45ac-a645-7374a60d9732" annotationText="REVIT ACTION" left="-4295.75988450931" top="-654.310594194268" width="356.4448465552" height="283.967496819897" fontSize="36" InitialTop="-601.310594194268" InitialHeight="281.0816022106" TextblockHeight="43" backgrouund="#FFFFAA45">
+      <Models ModelGuid="bb8ab9f9-61cf-4caa-a50a-64a4f9353512" />
+      <Models ModelGuid="dc9789e6-57d6-488c-9f14-bb0e88111188" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="d125b7ed-90ba-492e-a263-0420acd3cb60" annotationText="ANNOTATION" left="-4297.54325232466" top="-362.925817846472" width="355.37307425769" height="286.856971868443" fontSize="36" InitialTop="-309.925817846472" InitialHeight="275.82899608125" TextblockHeight="43" backgrouund="#FFBB87C6">
+      <Models ModelGuid="a4f6ad01-15f4-4114-95d5-46e5518558e1" />
+      <Models ModelGuid="155f93e9-8c75-48c2-87e0-103b7f70a09d" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="711d7871-2a3c-4306-98cb-6d322efcf6e1" annotationText="U.I." left="-5039.02199009433" top="-920.558963928132" width="350.6100499467" height="253.404256671773" fontSize="36" InitialTop="-867.558963928132" InitialHeight="281.36468812747" TextblockHeight="43" backgrouund="#FFFF7BAC">
+      <Models ModelGuid="db666486-8bae-4a42-afa5-dc883f15977e" />
+      <Models ModelGuid="1f569de1-c501-468d-be74-155efc40ad88" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="b093770e-be8e-4dfb-b07f-81f48ebb2ba5" annotationText="INFO" left="-3606.89767514006" top="-936.59169797326" width="238" height="299" fontSize="48" InitialTop="-869.09169797326" InitialHeight="140" TextblockHeight="57.5" backgrouund="#FFBB87C6">
+      <Models ModelGuid="c910043d-53af-4d33-86e8-cde0af6f0c7e" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="357180c5-c54e-418c-b628-54c594400aaa" annotationText="INSTRUCTIONS" left="-3224.87133206794" top="-937.993363245636" width="336.253333333333" height="126.5" fontSize="48" InitialTop="-870.493363245636" InitialHeight="140" TextblockHeight="57.5" backgrouund="#FFBB87C6">
+      <Models ModelGuid="6cc7090e-1cc8-43fd-8e17-216e499748b6" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="da6e6ec3-68cd-4e50-9175-6eb0201435cc" annotationText="DYNAMO ACTION" left="-4296.44190739819" top="-921.383040098772" width="356.400161937599" height="256.31358896648" fontSize="36" InitialTop="-868.383040098772" InitialHeight="281.0816022106" TextblockHeight="43" backgrouund="#FFFFC999">
+      <Models ModelGuid="7d731994-450d-45a5-a15a-ee78404e0c2e" />
+      <Models ModelGuid="01dccb3e-98a8-4cc3-bc3d-9143f358226e" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="7806de71-b447-4c90-9f7f-66412759f416" annotationText="I/O" left="-4672.32980258324" top="-364.496952037209" width="376.16854669786" height="301.379277230388" fontSize="36" InitialTop="-311.496952037209" InitialHeight="279.236190019541" TextblockHeight="43" backgrouund="#FFFFFFFF">
+      <Models ModelGuid="76d0f2d7-5402-410b-8bde-f88c5e3f1be3" />
+      <Models ModelGuid="3f7997b2-07cb-46e8-96b6-1773fbac1d9d" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+  </Annotations>
+  <Presets />
+  <Cameras>
+    <Camera Name="Background Preview" eyeX="-17" eyeY="24" eyeZ="50" lookX="12" lookY="-13" lookZ="-58" upX="0" upY="1" upZ="0" />
+  </Cameras>
+</Workspace>
